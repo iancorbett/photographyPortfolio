@@ -1,0 +1,24 @@
+.c-item {
+    height: 480px;
+}
+
+.c-image {
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-item {
+   padding: 0.2%;
+   height: 200px;
+}
+
+.card-group {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    justify-content: space-evenly;
+}
+
+.card-image {
+    height: 100%;
+    object-fit: cover;
+}
