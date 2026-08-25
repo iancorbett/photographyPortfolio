@@ -1,80 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="photography.css">
-</head>
-<body>
-    
-    <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid">
-            <a href="index.html">
-            <button>Back</button>
-            </a>
-            <span class="navbar-brand mb-0 h1 mx-auto">Photography</span>
-            <button class="invisible">Back</button>
-        </div>
-      </nav>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <div class="row row-cols-1 row-cols-md-3 g-4 card-group">
-        <div class="col card-item">
-          <div class="card h-100">
-            <img src="images/01075_1000.jpg" class="card-img-top card-img" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Fence</h5>
-              <p class="card-text"></p>
-            </div>
-          </div>
-        </div>
-        <div class="col card-item">
-          <div class="card h-100">
-            <img src="images/01077_1000.jpg" class="card-img-top card-img" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Tracks</h5>
-              <p class="card-text"></p>
-            </div>
-          </div>
-        </div>
-        <div class="col card-item">
-          <div class="card h-100">
-            <img src="images/01078_1000.jpg" class="card-img-top card-img" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text"></p>
-            </div>
-          </div>
-        </div>
-        <div class="col card-item">
-          <div class="card h-100">
-            <img src="images/01080_1000.jpg" class="card-img-top card-img" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text"></p>
-            </div>
-          </div>
-        </div>
-        <div class="col card-item">
-            <div class="card h-100">
-              <img src="images/Reflection_1000.jpg" class="card-img-top card-img" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text"></p>
-              </div>
-            </div>
-          </div>
-          <div class="col card-item">
-            <div class="card h-100">
-              <img src="images/Trainwreck_1000.jpg" class="card-img-top card-img" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text"></p>
-              </div>
-            </div>
-          </div>
+  <title>Photography | Celeste Corbett</title>
+
+  <link
+    rel="stylesheet"
+    href="node_modules/bootstrap/dist/css/bootstrap.css"
+  >
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="photography.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg portfolio-nav sticky-top">
+    <div class="container">
+
+      <a class="navbar-brand" href="index.html">
+        Celeste Corbett
+      </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#galleryNavigation"
+        aria-controls="galleryNavigation"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div
+        class="collapse navbar-collapse"
+        id="galleryNavigation"
+      >
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+
+          <li class="nav-item">
+            <a class="nav-link" href="studioCompositions.html">
+              Studio
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="paintings.html">
+              Paintings
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="photography.html">
+              Photography
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">
+              About
+            </a>
+          </li>
+
+        </ul>
       </div>
+
+    </div>
+  </nav>
+
+
+  <main>
+
+    <section class="photo-header">
+      <div class="container">
+
+        <p class="section-eyebrow">
+          Selected Work
+        </p>
+
+        <h1>
+          Photography
+        </h1>
+
+        <p class="photo-intro">
+          A photographic study of landscape, structure, atmosphere,
+          and quiet details found in everyday environments.
+        </p>
+
+      </div>
+    </section>
+
+
+    <section class="photo-gallery">
+      <div class="container">
+
+        <div class="row g-5">
+
+          <div class="col-12 col-lg-6">
+            <figure class="photo-item">
+              <img
+                src="images/01075_1000.jpg"
+                alt="Fence photograph by Celeste Corbett"
+                class="photo-image"
+              >
+
+              <figcaption>
+                <h2>Fence</h2>
+                <p>Photography</p>
+              </figcaption>
+            </figure>
+          </div>
+
+
+          <div class="col-12 col-lg-6">
+            <figure class="photo-item">
+              <img
+                src="images/01077_1000.jpg"
+                alt="Tracks photograph by Celeste Corbett"
+                class="photo-image"
+              >
+
+              <figcaption>
+                <h2>Tracks</h2>
+                <p>Photography</p>
+              </figcaption>
+            </figure>
+          </div>
+
+
+          <div class="col-12 col-lg-6">
+            <figure class="photo-item">
+              <img
+                src="images/01078_1000.jpg"
+                alt="Photograph by Celeste Corbett"
+                class="photo-image"
+              >
+
+              <figcaption>
+                <h2>Untitled I</h2>
+                <p>Photography</p>
+              </figcaption>
+            </figure>
+          </div>
+
+
+          <div class="col-12 col-lg-6">
+            <figure class="photo-item">
+              <img
+                src="images/01080_1000.jpg"
+                alt="Photograph by Celeste Corbett"
+                class="photo-image"
+              >
+
+              <figcaption>
+                <h2>Untitled II</h2>
+                <p>Photography</p>
+              </figcaption>
+            </figure>
+          </div>
+
+
+          <div class="col-12 col-lg-6">
+            <figure class="photo-item">
+              <img
+                src="images/Reflection_1000.jpg"
+                alt="Reflection photograph by Celeste Corbett"
+                class="photo-image"
+              >
+
+              <figcaption>
+                <h2>Reflection</h2>
+                <p>Photography</p>
+              </figcaption>
+            </figure>
+          </div>
+
+
+          <div class="col-12 col-lg-6">
+            <figure class="photo-item">
+              <img
+                src="images/Trainwreck_1000.jpg"
+                alt="Trainwreck photograph by Celeste Corbett"
+                class="photo-image"
+              >
+
+              <figcaption>
+                <h2>Trainwreck</h2>
+                <p>Photography</p>
+              </figcaption>
+            </figure>
+          </div>
+
+        </div>
+
+
+        <div class="photo-back">
+          <a href="index.html">
+            ← Back to Portfolio
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer class="portfolio-footer">
+    <div class="container">
+
+      <div class="footer-content">
+
+        <div>
+          <strong>
+            Celeste Corbett
+          </strong>
+
+          <p>
+            Artist Portfolio
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <a href="paintings.html">
+            Paintings
+          </a>
+
+          <a href="about.html">
+            About
+          </a>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        © Celeste Corbett. All rights reserved.
+      </div>
+
+    </div>
+  </footer>
+
+
+  <script
+    src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"
+  ></script>
 
 </body>
 </html>
