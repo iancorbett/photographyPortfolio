@@ -1,143 +1,467 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-   <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Celeste Corbett | Artist Portfolio</title>
+
+  <link
+    rel="stylesheet"
+    href="node_modules/bootstrap/dist/css/bootstrap.css"
+  >
+
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Celeste Corbett</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto w-100 mb-2 mb-lg-0">
-              
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Links
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="https://www.instagram.com/celestejonesart/">Instagram</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Contact Me</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Purchase</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Works
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item">Studio Compositions</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="paintings.html">Paintings</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="photography.html">Photography</a></li>
-                </ul>
-              </li>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg portfolio-nav sticky-top">
+    <div class="container">
 
-              <li class="nav-item">
-                <a class="nav-link">Exhibitions</a>
-              </li>
-              
-              <li class="nav-item ms-auto">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
+      <a class="navbar-brand" href="index.html">
+        Celeste Corbett
+      </a>
 
-              <li class="nav-item">
-                <a class="nav-link" href="resume.html">Resume</a>
-              </li>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-            </ul>
-            
-          </div>
-        </div>
-      </nav>
+      <div
+        class="collapse navbar-collapse"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav ms-auto align-items-lg-center">
 
-      <main>
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active c-item" data-bs-interval="5000">
-            <img src="unnamed.jpg" class="d-block w-100 c-image" alt="...">
-            <div class="carousel-caption top-0 mt-4">
-              <h1>Celeste Corbett</h1>
-              <p>Welcome to my portfolio!</p>
-            </div>
-          </div>
-          <div class="carousel-item c-item" data-bs-interval="5000">
-            <img src="1BCA2C85-2BC1-4479-8E8C-711689A8490E.JPG" class="d-block w-100 c-image" alt="...">
-            <div class="carousel-caption top-0 mt-4">
-              <h5></h5>
-              <p></p>
-            </div>
-          </div>
-          <div class="carousel-item c-item" data-bs-interval="5000">
-            <img src="IMG_0955.jpg" class="d-block w-100 c-image" alt="...">
-            <div class="carousel-caption top-0 mt-4">
-              <h5></h5>
-              <p></p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="studioCompositions.html"
+            >
+              Studio
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="paintings.html"
+            >
+              Paintings
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="photography.html"
+            >
+              Photography
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="about.html"
+            >
+              About
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="resume.html"
+            >
+              Resume
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a
+              class="nav-link nav-instagram"
+              href="https://www.instagram.com/celestejonesart/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Instagram
+            </a>
+          </li>
+
+        </ul>
       </div>
-        
-      <div class="container section-cards mb-5">
-      <div class="card-group">
-        <div class="card card-item">
-          <img src="mail.google.jpg" class="card-img-top card-image" alt="...">
-          <div class="card-body text-center">
-            <h1 class="card-title">Paintings</h1>
-            <p class="card-text"></p>
-            <p class="card-text"><small class="text-body-secondary"></small></p>
-          </div>
+
+    </div>
+  </nav>
+
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero-section">
+
+      <div
+        id="portfolioCarousel"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#portfolioCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+
+          <button
+            type="button"
+            data-bs-target="#portfolioCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+
+          <button
+            type="button"
+            data-bs-target="#portfolioCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
         </div>
-        <div class="card card-item">
-          <img src="0-1.jpg" class="card-img-top card-image" alt="...">
-          <div class="card-body text-center">
-            <h1 class="card-title">Exhibitions</h1>
-            <p class="card-text"></p>
-            <p class="card-text"><small class="text-body-secondary"></small></p>
+
+
+        <div class="carousel-inner">
+
+          <div
+            class="carousel-item active hero-slide"
+            data-bs-interval="5000"
+          >
+            <img
+              src="unnamed.jpg"
+              class="d-block w-100 hero-image"
+              alt="Snow-covered mountain landscape"
+            >
+
+            <div class="hero-overlay"></div>
+
+            <div class="carousel-caption hero-content">
+              <p class="hero-eyebrow">
+                Artist Portfolio
+              </p>
+
+              <h1>
+                Celeste Corbett
+              </h1>
+
+              <p class="hero-subtitle">
+                Painting, photography, and visual exploration inspired by
+                place, memory, and the natural world.
+              </p>
+
+              <a
+                href="#selected-work"
+                class="hero-button"
+              >
+                Explore Selected Work
+              </a>
+            </div>
           </div>
-        </div>
-        <div class="card card-item">
-          <img src="IMG_6840.png" class="card-img-top card-image" alt="...">
-          <div class="card-body text-center">
-            <h1 class="card-title">Photography</h1>
-            <p class="card-text"></p>
-            <p class="card-text"><small class="text-body-secondary"></small></p>
+
+
+          <div
+            class="carousel-item hero-slide"
+            data-bs-interval="5000"
+          >
+            <img
+              src="1BCA2C85-2BC1-4479-8E8C-711689A8490E.JPG"
+              class="d-block w-100 hero-image"
+              alt="Artwork by Celeste Corbett"
+            >
+
+            <div class="hero-overlay"></div>
           </div>
+
+
+          <div
+            class="carousel-item hero-slide"
+            data-bs-interval="5000"
+          >
+            <img
+              src="IMG_0955.jpg"
+              class="d-block w-100 hero-image"
+              alt="Artwork by Celeste Corbett"
+            >
+
+            <div class="hero-overlay"></div>
+          </div>
+
         </div>
+
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#portfolioCarousel"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
+
+          <span class="visually-hidden">
+            Previous
+          </span>
+        </button>
+
+
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#portfolioCarousel"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon"
+            aria-hidden="true"
+          ></span>
+
+          <span class="visually-hidden">
+            Next
+          </span>
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <!-- SELECTED WORK -->
+    <section
+      id="selected-work"
+      class="selected-work"
+    >
+      <div class="container">
+
+        <div class="section-heading">
+          <p class="section-eyebrow">
+            Selected Work
+          </p>
+
+          <h2>
+            Explore the portfolio
+          </h2>
+
+          <p>
+            A collection of paintings, photography, and studio work.
+          </p>
+        </div>
+
+
+        <div class="row g-4">
+
+          <!-- PAINTINGS -->
+          <div class="col-12 col-md-4">
+            <a
+              href="paintings.html"
+              class="portfolio-card"
+            >
+              <div class="portfolio-image-wrapper">
+                <img
+                  src="mail.google.jpg"
+                  alt="Selected paintings"
+                  class="portfolio-image"
+                >
+              </div>
+
+              <div class="portfolio-card-content">
+                <p class="portfolio-number">
+                  01
+                </p>
+
+                <h3>
+                  Paintings
+                </h3>
+
+                <p>
+                  Explore selected paintings and mixed-media work.
+                </p>
+
+                <span class="portfolio-link">
+                  View collection →
+                </span>
+              </div>
+            </a>
+          </div>
+
+
+          <!-- STUDIO / EXHIBITIONS -->
+          <div class="col-12 col-md-4">
+            <a
+              href="studioCompositions.html"
+              class="portfolio-card"
+            >
+              <div class="portfolio-image-wrapper">
+                <img
+                  src="0-1.jpg"
+                  alt="Studio compositions"
+                  class="portfolio-image"
+                >
+              </div>
+
+              <div class="portfolio-card-content">
+                <p class="portfolio-number">
+                  02
+                </p>
+
+                <h3>
+                  Studio Work
+                </h3>
+
+                <p>
+                  Compositions, studies, and work from the studio.
+                </p>
+
+                <span class="portfolio-link">
+                  Explore work →
+                </span>
+              </div>
+            </a>
+          </div>
+
+
+          <!-- PHOTOGRAPHY -->
+          <div class="col-12 col-md-4">
+            <a
+              href="photography.html"
+              class="portfolio-card"
+            >
+              <div class="portfolio-image-wrapper">
+                <img
+                  src="IMG_6840.png"
+                  alt="Selected photography"
+                  class="portfolio-image"
+                >
+              </div>
+
+              <div class="portfolio-card-content">
+                <p class="portfolio-number">
+                  03
+                </p>
+
+                <h3>
+                  Photography
+                </h3>
+
+                <p>
+                  Observations of landscape, light, and everyday environments.
+                </p>
+
+                <span class="portfolio-link">
+                  View photographs →
+                </span>
+              </div>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ABOUT TEASER -->
+    <section class="about-preview">
+      <div class="container">
+        <div class="row align-items-center g-5">
+
+          <div class="col-lg-7">
+            <p class="section-eyebrow">
+              About the Artist
+            </p>
+
+            <h2>
+              Art rooted in observation and place.
+            </h2>
+
+            <p class="about-preview-text">
+              Celeste Corbett is a multidisciplinary artist working across
+              painting, photography, and mixed-media practices.
+            </p>
+          </div>
+
+          <div class="col-lg-5 text-lg-end">
+            <a
+              href="about.html"
+              class="outline-button"
+            >
+              Learn More
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="portfolio-footer">
+    <div class="container">
+      <div class="footer-content">
+
+        <div>
+          <strong>
+            Celeste Corbett
+          </strong>
+
+          <p>
+            Artist Portfolio
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <a
+            href="https://www.instagram.com/celestejonesart/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Instagram
+          </a>
+
+          <a href="about.html">
+            About
+          </a>
+
+          <a href="resume.html">
+            Resume
+          </a>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        © Celeste Corbett. All rights reserved.
       </div>
     </div>
-    </main>
+  </footer>
 
-    <footer class="bg-light border-top py-3">
-      <div class="container text-center small">
-        © Celeste Corbett • All rights reserved
-      </div>
-    </footer>
 
-    <script type="module" src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <script
+    src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"
+  ></script>
+
 </body>
 </html>
