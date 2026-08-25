@@ -1,81 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="drawings.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Drawings | Celeste Corbett</title>
+
+  <link
+    rel="stylesheet"
+    href="node_modules/bootstrap/dist/css/bootstrap.css"
+  >
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="drawings.css">
 </head>
+
 <body>
-    
 
+  <!-- NAVIGATION -->
+  <nav class="navbar navbar-expand-lg portfolio-nav sticky-top">
+    <div class="container">
 
-  <nav class="navbar bg-body-tertiary">
-    <div class="container-fluid">
-        <a href="index.html">
-        <button>Back</button>
-        </a>
-        <span class="navbar-brand mb-0 h1 mx-auto">Drawings</span>
-        <button class="invisible">Back</button>
+      <a class="navbar-brand" href="index.html">
+        Celeste Corbett
+      </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#galleryNavigation"
+        aria-controls="galleryNavigation"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div
+        class="collapse navbar-collapse"
+        id="galleryNavigation"
+      >
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+
+          <li class="nav-item">
+            <a class="nav-link" href="studioCompositions.html">
+              Studio
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="paintings.html">
+              Paintings
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="photography.html">
+              Photography
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="drawings.html">
+              Drawings
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">
+              About
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
     </div>
   </nav>
 
-    <div class="row row-cols-1 row-cols-md-3 g-4 card-group">
-        <div class="col card-item">
-          <div class="card h-100">
-            <img src="images/Lion Sketch.JPG" class="card-img-top card-img" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text"></p>
-            </div>
-          </div>
-        </div>
-        <div class="col card-item">
-          <div class="card h-100">
-            <img src="images/Elephantay.JPG" class="card-img-top card-img" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text"></p>
-            </div>
-          </div>
-        </div>
-        <!-- <div class="col card-item">
-          <div class="card h-100">
-            <img src="images/DesertOasis.jpg" class="card-img-top card-img" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text"></p>
-            </div>
-          </div>
-        </div>
-        <div class="col card-item">
-          <div class="card h-100">
-            <img src="images/IMG_2467_1000.JPG" class="card-img-top card-img" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text"></p>
-            </div>
-          </div>
-        </div>
-        <div class="col card-item">
-          <div class="card h-100">
-            <img src="images/IMG_4002_1000.JPG" class="card-img-top card-img" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text"></p>
-            </div>
-          </div>
-        </div>
-        <div class="col card-item">
-          <div class="card h-100">
-            <img src="images/IMG_6636_1000.JPG" class="card-img-top card-img" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text"></p>
-            </div>
-          </div>
-        </div> -->
+
+  <main>
+
+    <!-- PAGE INTRO -->
+    <section class="gallery-header">
+      <div class="container">
+
+        <p class="section-eyebrow">
+          Selected Work
+        </p>
+
+        <h1>
+          Drawings
+        </h1>
+
+        <p class="gallery-intro">
+          A selection of observational studies and hand-drawn work exploring
+          form, texture, and character.
+        </p>
+
       </div>
+    </section>
+
+
+    <!-- GALLERY -->
+    <section class="gallery-section">
+      <div class="container">
+
+        <div class="row g-5">
+
+          <!-- LION -->
+          <div class="col-12 col-lg-6">
+            <figure class="artwork-item">
+
+              <div class="artwork-image-wrapper">
+                <img
+                  src="images/Lion Sketch.JPG"
+                  class="artwork-image"
+                  alt="Lion drawing by Celeste Corbett"
+                >
+              </div>
+
+              <figcaption class="artwork-caption">
+                <h2>
+                  Lion Study
+                </h2>
+
+                <p>
+                  Drawing
+                </p>
+              </figcaption>
+
+            </figure>
+          </div>
+
+
+          <!-- ELEPHANT -->
+          <div class="col-12 col-lg-6">
+            <figure class="artwork-item">
+
+              <div class="artwork-image-wrapper">
+                <img
+                  src="images/Elephantay.JPG"
+                  class="artwork-image"
+                  alt="Elephant drawing by Celeste Corbett"
+                >
+              </div>
+
+              <figcaption class="artwork-caption">
+                <h2>
+                  Elephant Study
+                </h2>
+
+                <p>
+                  Drawing
+                </p>
+              </figcaption>
+
+            </figure>
+          </div>
+
+        </div>
+
+
+        <div class="gallery-footer-link">
+          <a href="index.html">
+            ← Back to Portfolio
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer class="portfolio-footer">
+    <div class="container">
+
+      <div class="footer-content">
+
+        <div>
+          <strong>
+            Celeste Corbett
+          </strong>
+
+          <p>
+            Artist Portfolio
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <a href="paintings.html">
+            Paintings
+          </a>
+
+          <a href="photography.html">
+            Photography
+          </a>
+
+          <a href="about.html">
+            About
+          </a>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        © Celeste Corbett. All rights reserved.
+      </div>
+
+    </div>
+  </footer>
+
+
+  <script
+    src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"
+  ></script>
+
 </body>
 </html>
