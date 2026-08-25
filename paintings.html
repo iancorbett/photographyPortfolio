@@ -1,81 +1,277 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="paintings.css">
-</head>
-<body>
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <nav class="navbar bg-body-tertiary">
-    <div class="container-fluid">
-        <a href="index.html">
-        <button>Back</button>
-        </a>
-        <span class="navbar-brand mb-0 h1 mx-auto">Paintings</span>
-        <button class="invisible">Back</button>
+  <title>Paintings | Celeste Corbett</title>
+
+  <link
+    rel="stylesheet"
+    href="node_modules/bootstrap/dist/css/bootstrap.css"
+  >
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="paintings.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg portfolio-nav sticky-top">
+    <div class="container">
+
+      <a class="navbar-brand" href="index.html">
+        Celeste Corbett
+      </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#galleryNavigation"
+        aria-controls="galleryNavigation"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div
+        class="collapse navbar-collapse"
+        id="galleryNavigation"
+      >
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+
+          <li class="nav-item">
+            <a class="nav-link" href="studioCompositions.html">
+              Studio
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="paintings.html">
+              Paintings
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="photography.html">
+              Photography
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">
+              About
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
     </div>
   </nav>
 
-    <div class="row row-cols-1 row-cols-md-3 g-4 card-group">
-        <div class="col card-item">
-          <div class="card h-100">
-            <img src="images/CJones1.jpg" class="card-img-top card-img" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text"></p>
-            </div>
-          </div>
-        </div>
-        <div class="col card-item">
-          <div class="card h-100">
-            <img src="images/CJones2_1000.jpg" class="card-img-top card-img" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text"></p>
-            </div>
-          </div>
-        </div>
-        <div class="col card-item">
-          <div class="card h-100">
-            <img src="images/DesertOasis.jpg" class="card-img-top card-img" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text"></p>
-            </div>
-          </div>
-        </div>
-        <div class="col card-item">
-          <div class="card h-100">
-            <img src="images/IMG_2467_1000.JPG" class="card-img-top card-img" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text"></p>
-            </div>
-          </div>
-        </div>
-        <div class="col card-item">
-          <div class="card h-100">
-            <img src="images/IMG_4002_1000.JPG" class="card-img-top card-img" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text"></p>
-            </div>
-          </div>
-        </div>
-        <div class="col card-item">
-          <div class="card h-100">
-            <img src="images/IMG_6636_1000.JPG" class="card-img-top card-img" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text"></p>
-            </div>
-          </div>
-        </div>
+
+  <main>
+
+    <section class="paintings-header">
+      <div class="container">
+
+        <p class="section-eyebrow">
+          Selected Work
+        </p>
+
+        <h1>
+          Paintings
+        </h1>
+
+        <p class="paintings-intro">
+          A selection of paintings exploring color, atmosphere, landscape,
+          and the relationship between observation and memory.
+        </p>
+
       </div>
+    </section>
+
+
+    <section class="paintings-gallery">
+      <div class="container">
+
+        <div class="row g-5">
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <figure class="painting-item">
+
+              <div class="painting-image-wrapper">
+                <img
+                  src="images/CJones1.jpg"
+                  alt="Painting by Celeste Corbett"
+                  class="painting-image"
+                >
+              </div>
+
+              <figcaption>
+                <h2>Untitled I</h2>
+                <p>Painting</p>
+              </figcaption>
+
+            </figure>
+          </div>
+
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <figure class="painting-item">
+
+              <div class="painting-image-wrapper">
+                <img
+                  src="images/CJones2_1000.jpg"
+                  alt="Painting by Celeste Corbett"
+                  class="painting-image"
+                >
+              </div>
+
+              <figcaption>
+                <h2>Untitled II</h2>
+                <p>Painting</p>
+              </figcaption>
+
+            </figure>
+          </div>
+
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <figure class="painting-item">
+
+              <div class="painting-image-wrapper">
+                <img
+                  src="images/DesertOasis.jpg"
+                  alt="Desert Oasis painting by Celeste Corbett"
+                  class="painting-image"
+                >
+              </div>
+
+              <figcaption>
+                <h2>Desert Oasis</h2>
+                <p>Painting</p>
+              </figcaption>
+
+            </figure>
+          </div>
+
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <figure class="painting-item">
+
+              <div class="painting-image-wrapper">
+                <img
+                  src="images/IMG_2467_1000.JPG"
+                  alt="Painting by Celeste Corbett"
+                  class="painting-image"
+                >
+              </div>
+
+              <figcaption>
+                <h2>Untitled III</h2>
+                <p>Painting</p>
+              </figcaption>
+
+            </figure>
+          </div>
+
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <figure class="painting-item">
+
+              <div class="painting-image-wrapper">
+                <img
+                  src="images/IMG_4002_1000.JPG"
+                  alt="Painting by Celeste Corbett"
+                  class="painting-image"
+                >
+              </div>
+
+              <figcaption>
+                <h2>Untitled IV</h2>
+                <p>Painting</p>
+              </figcaption>
+
+            </figure>
+          </div>
+
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <figure class="painting-item">
+
+              <div class="painting-image-wrapper">
+                <img
+                  src="images/IMG_6636_1000.JPG"
+                  alt="Painting by Celeste Corbett"
+                  class="painting-image"
+                >
+              </div>
+
+              <figcaption>
+                <h2>Untitled V</h2>
+                <p>Painting</p>
+              </figcaption>
+
+            </figure>
+          </div>
+
+        </div>
+
+
+        <div class="paintings-back">
+          <a href="index.html">
+            ← Back to Portfolio
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer class="portfolio-footer">
+    <div class="container">
+
+      <div class="footer-content">
+
+        <div>
+          <strong>
+            Celeste Corbett
+          </strong>
+
+          <p>
+            Artist Portfolio
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <a href="photography.html">
+            Photography
+          </a>
+
+          <a href="about.html">
+            About
+          </a>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        © Celeste Corbett. All rights reserved.
+      </div>
+
+    </div>
+  </footer>
+
+
+  <script
+    src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"
+  ></script>
 
 </body>
 </html>
